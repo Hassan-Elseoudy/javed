@@ -1,5 +1,7 @@
 import csv
 import re
+import tkinter as tk
+from tkinter import filedialog
 
 import PyPDF2
 
@@ -33,20 +35,19 @@ def extract_qa(file_path, delimiter):
     question_matches = re.finditer(question_pattern + answer_pattern + correct_answer_pattern, contents, re.DOTALL)
     qa_list = []
     for match in question_matches:
+        answers_text = []
         question_number = match.group(2)
         question = match.group(3)
-        qa_list.append([question_number, question])
 
         answers_section = match.group(0)
         answer_matches = re.finditer(answer_pattern, answers_section)
         for answer_match in answer_matches:
-            answer_symbol = answer_match.group().split(".")[0].strip()
-            answer = answer_match.group().split(".")[1].strip()
-            qa_list.append([answer_symbol, answer])
+            answers_text.append(answer_match.group())
 
         correct_answer_match = re.search(correct_answer_pattern, answers_section)
         correct_answer_symbol = correct_answer_match.group(2)
-        qa_list.append(["Answer", correct_answer_symbol])
+        qa_list.append(
+            [" ".join([question_number, question, "\n".join(answers_text)]), f"{delimiter}: {correct_answer_symbol}"])
 
     return qa_list
 
@@ -61,13 +62,15 @@ def create_anki_deck(qa_list):
             anki_deck.write(question + '\t' + answer + '\n')
 
 
-# Function to create the CSV file
 def create_csv(qa_list):
     with open('qa.csv', 'w', newline='') as qa_csv:
-        csv_writer = csv.writer(qa_csv, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        csv_writer.writerow(['Number', 'Question/Answer'])
+        csv_writer = csv.writer(qa_csv, delimiter=',',
+                                quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        csv_writer.writerow(['Question/Answer', 'Correct Answer'])
         for qa in qa_list:
-            csv_writer.writerow(qa)
+            question_answer = qa[0]
+            correct_answer = qa[1]
+            csv_writer.writerow([question_answer, correct_answer])
 
 
 # Function to extract and create file
@@ -78,6 +81,7 @@ def extract_create(file_path, delimiter):
 
 
 extract_create("javed.txt", "Answer")
+
 
 # def on_select_file():
 #     filepath = filedialog.askopenfilename()
@@ -91,30 +95,29 @@ extract_create("javed.txt", "Answer")
 #     extract_create(file_path, delimiter)
 #     result_label.config(text="Anki Deck and CSV file created!")
 #
-
-# if __name__ == '__main__':
-#     root = tk.Tk()
-#     root.title("Question-Answer Extractor")
 #
-#     # file_path_
-#     # root = tk.Tk()
+# root = tk.Tk()
+# root.title("Question-Answer Extractor")
 #
-#     # create the widgets
-#     file_path_label = tk.Label(root, text="File path:")
-#     file_path_entry = tk.Entry(root)
-#     select_file_button = tk.Button(root, text="Select file", command=on_select_file)
-#     delimiter_label = tk.Label(root, text="Delimiter:")
-#     delimiter_entry = tk.Entry(root)
-#     submit_button = tk.Button(root, text="Submit", command=on_submit)
-#     result_label = tk.Label(root)
+# # file_path_
+# # root = tk.Tk()
 #
-#     # arrange the widgets
-#     file_path_label.grid(row=0, column=0, padx=5, pady=5)
-#     file_path_entry.grid(row=0, column=1, padx=5, pady=5)
-#     select_file_button.grid(row=0, column=2, padx=5, pady=5)
-#     delimiter_label.grid(row=1, column=0, padx=5, pady=5)
-#     delimiter_entry.grid(row=1, column=1, padx=5, pady=5)
-#     submit_button.grid(row=1, column=2, padx=5, pady=5)
-#     result_label.grid(row=2, column=0, columnspan=3, padx=5, pady=5)
+# # create the widgets
+# file_path_label = tk.Label(root, text="File path:")
+# file_path_entry = tk.Entry(root)
+# select_file_button = tk.Button(root, text="Select file", command=on_select_file)
+# delimiter_label = tk.Label(root, text="Delimiter:")
+# delimiter_entry = tk.Entry(root)
+# submit_button = tk.Button(root, text="Submit", command=on_submit)
+# result_label = tk.Label(root)
 #
-#     root.mainloop()
+# # arrange the widgets
+# file_path_label.grid(row=0, column=0, padx=5, pady=5)
+# file_path_entry.grid(row=0, column=1, padx=5, pady=5)
+# select_file_button.grid(row=0, column=2, padx=5, pady=5)
+# delimiter_label.grid(row=1, column=0, padx=5, pady=5)
+# delimiter_entry.grid(row=1, column=1, padx=5, pady=5)
+# submit_button.grid(row=1, column=2, padx=5, pady=5)
+# result_label.grid(row=2, column=0, columnspan=3, padx=5, pady=5)
+#
+# root.mainloop()
