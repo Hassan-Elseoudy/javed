@@ -1,0 +1,21 @@
+NEW QUESTION 1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+A. The likelihood and impact of a vulnerability.
+B. Application interface entry and endpoints.
+C. Countermeasures and mitigations for vulnerabilities.
+D. A data flow diagram for the application and attack surface analysis.
+Answer: D
+NEW QUESTION 2
+Continuity of operations is BEST supported by which of the following?
+A. Confidentiality, availability, and reliability.
+B. Connectivity, reliability, and redundancy.
+C. Connectivity, reliability, and recovery.
+D. Confidentiality, integrity, and availability.
+Answer: B
+NEW QUESTION 3
+What determines the level of security of a combination lock?
+A. Complexity of combination required to open the lock.
+B. Amount of time it takes to brute force the combination.
+C. The number of barrels associated with the internal mechanism.
+D. The hardness score of the metal lock material.
+Answer: A
