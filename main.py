@@ -1,7 +1,5 @@
 import csv
 import re
-import tkinter as tk
-from tkinter import filedialog
 
 import PyPDF2
 
@@ -23,31 +21,33 @@ def extract_qa(file_path, delimiter):
     except IOError:
         raise ValueError("Error opening the file. Please check the file path and try again.")
 
+    contents = contents.replace("Visit and Download Full Version Exam Dumps", "")
+    contents = contents.replace("http://www.certleader.com/CISSP-dumps.html", "")
+    contents = contents.replace("CISSP - Certified Information Systems Security Professional (CISSP)", "")
+    contents = contents.replace("The Leader of IT Certification", "")
+    contents = contents.replace("visit - http://www.certleader.com", "")
+    contents = contents.replace("Visit and Download Full Version CISSP Exam Dumps", "")
+
     if len(delimiter) > 20:
         raise ValueError("Delimiter can't be more than 20 characters")
     elif not delimiter.strip():
         raise ValueError("Delimiter can't be blank.")
     # Use regex to find all instances of the question-answer pattern
-    question_pattern = fr"(NEW QUESTION|QUESTION)\s+(\d+)\n(.+?)(?=\n[A-Z]\.)"
-    answer_pattern = fr"\n([A-Z]\.[\s\S]+?)(?=\n[A-Z]|{delimiter})"
-    correct_answer_pattern = fr"({delimiter}):\s*([A-Z])"
-
-    question_matches = re.finditer(question_pattern + answer_pattern + correct_answer_pattern, contents, re.DOTALL)
+    question_pattern = r"(NEW QUESTION|QUESTION)\s(\d+)\n((.|\n)*?)((?:\n[A-D]..+){0})\n"
+    correct_answer_pattern = fr"{delimiter}:\s\w"
+    question_matches = re.finditer(question_pattern + correct_answer_pattern, contents, re.DOTALL)
     qa_list = []
     for match in question_matches:
         answers_text = []
         question_number = match.group(2)
         question = match.group(3)
-
         answers_section = match.group(0)
-        answer_matches = re.finditer(answer_pattern, answers_section)
-        for answer_match in answer_matches:
-            answers_text.append(answer_match.group())
 
         correct_answer_match = re.search(correct_answer_pattern, answers_section)
-        correct_answer_symbol = correct_answer_match.group(2)
+        correct_answer_symbol = correct_answer_match.group(0)
         qa_list.append(
-            ["\n".join([question_number, question, "<br></br>", "<br></br>".join(answers_text)]), f"{delimiter}: {correct_answer_symbol}"])
+            ["\n".join([question_number, question, "<br></br>", "<br></br>".join(answers_text)]),
+             correct_answer_symbol])
 
     return qa_list
 
@@ -56,7 +56,7 @@ def extract_qa(file_path, delimiter):
 def create_anki_deck(qa_list):
     # Create a new Anki deck using the 'anki_deck_template.txt' file
     with open('anki_deck.txt', 'w') as anki_deck:
-        for qa in qa_list:
+        for qa in filter(lambda q: q[1][-1] != 'N', qa_list):
             question = qa[0]
             answer = qa[1]
             anki_deck.write(question + '\n' + answer + '\t')
@@ -67,17 +67,18 @@ def create_csv(qa_list):
         csv_writer = csv.writer(qa_csv, delimiter=',',
                                 quotechar='"', quoting=csv.QUOTE_MINIMAL)
         csv_writer.writerow(['Question/Answer', 'Correct Answer'])
-        for qa in qa_list:
+        for qa in filter(lambda q: q[1][-1] != 'N', qa_list):
             question_answer = qa[0]
             correct_answer = qa[1]
             csv_writer.writerow([question_answer, correct_answer])
 
 
-#Function to extract and create file
+# Function to extract and create file
 def extract_create(file_path, delimiter):
     qa_list = extract_qa(file_path, delimiter)
     create_anki_deck(qa_list)
     create_csv(qa_list)
+
 
 extract_create("javed.txt", "Answer")
 
