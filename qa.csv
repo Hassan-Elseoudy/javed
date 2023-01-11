@@ -1,481 +1,481 @@
 Question/Answer,Correct Answer
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A
-"1 Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)? 
-A. The likelihood and impact of a vulnerability.
+"1
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?
+<br></br>
 
-B. Application interface entry and endpoints.
-
-C. Countermeasures and mitigations for vulnerabilities.
-
+A. The likelihood and impact of a vulnerability.<br></br>
+B. Application interface entry and endpoints.<br></br>
+C. Countermeasures and mitigations for vulnerabilities.<br></br>
 D. A data flow diagram for the application and attack surface analysis.",Answer: D
-"2 Continuity of operations is BEST supported by which of the following? 
-A. Confidentiality, availability, and reliability.
+"2
+Continuity of operations is BEST supported by which of the following?
+<br></br>
 
-B. Connectivity, reliability, and redundancy.
-
-C. Connectivity, reliability, and recovery.
-
+A. Confidentiality, availability, and reliability.<br></br>
+B. Connectivity, reliability, and redundancy.<br></br>
+C. Connectivity, reliability, and recovery.<br></br>
 D. Confidentiality, integrity, and availability.",Answer: B
-"3 What determines the level of security of a combination lock? 
-A. Complexity of combination required to open the lock.
+"3
+What determines the level of security of a combination lock?
+<br></br>
 
-B. Amount of time it takes to brute force the combination.
-
-C. The number of barrels associated with the internal mechanism.
-
+A. Complexity of combination required to open the lock.<br></br>
+B. Amount of time it takes to brute force the combination.<br></br>
+C. The number of barrels associated with the internal mechanism.<br></br>
 D. The hardness score of the metal lock material.",Answer: A

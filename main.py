@@ -47,7 +47,7 @@ def extract_qa(file_path, delimiter):
         correct_answer_match = re.search(correct_answer_pattern, answers_section)
         correct_answer_symbol = correct_answer_match.group(2)
         qa_list.append(
-            [" ".join([question_number, question, "\n".join(answers_text)]), f"{delimiter}: {correct_answer_symbol}"])
+            ["\n".join([question_number, question, "<br></br>", "<br></br>".join(answers_text)]), f"{delimiter}: {correct_answer_symbol}"])
 
     return qa_list
 
@@ -59,7 +59,7 @@ def create_anki_deck(qa_list):
         for qa in qa_list:
             question = qa[0]
             answer = qa[1]
-            anki_deck.write(question + '\t' + answer + '\n')
+            anki_deck.write(question + '\n' + answer + '\t')
 
 
 def create_csv(qa_list):
@@ -73,22 +73,20 @@ def create_csv(qa_list):
             csv_writer.writerow([question_answer, correct_answer])
 
 
-# Function to extract and create file
+#Function to extract and create file
 def extract_create(file_path, delimiter):
     qa_list = extract_qa(file_path, delimiter)
     create_anki_deck(qa_list)
     create_csv(qa_list)
 
-
 extract_create("javed.txt", "Answer")
-
 
 # def on_select_file():
 #     filepath = filedialog.askopenfilename()
 #     file_path_entry.delete(0, tk.END)
 #     file_path_entry.insert(0, filepath)
-#
-#
+
+
 # def on_submit():
 #     file_path = file_path_entry.get()
 #     delimiter = delimiter_entry.get()
