@@ -38,7 +38,6 @@ def extract_qa(file_path, delimiter):
     question_matches = re.finditer(question_pattern + correct_answer_pattern, contents, re.DOTALL)
     qa_list = []
     for match in question_matches:
-        answers_text = []
         question_number = match.group(2)
         question = match.group(3)
         answers_section = match.group(0)
@@ -46,7 +45,7 @@ def extract_qa(file_path, delimiter):
         correct_answer_match = re.search(correct_answer_pattern, answers_section)
         correct_answer_symbol = correct_answer_match.group(0)
         qa_list.append(
-            ["\n".join([question_number, question, "<br></br>", "<br></br>".join(answers_text)]),
+            ["\n".join([question_number, "<br></br>".join(question.split("\n")), "<br></br>"]),
              correct_answer_symbol])
 
     return qa_list
