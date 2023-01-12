@@ -18,6 +18,9 @@ def extract_single_qa(content, delimiter):
 
             correct_answer_match = re.search(correct_answer_pattern, answers_section)
             correct_answer_symbol = correct_answer_match.group(0)
+            # Handling empty Answers.
+            if not re.match(fr"{delimiter}:\s+[A-D]", correct_answer_symbol):
+                continue
             return ["\n".join([question_number, "<br></br>".join(question.split("\n")), "<br></br>"]),
                     "<br></br>".join(correct_answer_symbol.split("\n"))]
         else:
@@ -28,7 +31,7 @@ def extract_single_qa(content, delimiter):
 def extract_qa(file_path, delimiter):
     # Check if the file path is valid
     try:
-        contents = ""
+        contents = "\n"
         if not file_path:
             raise ValueError("File path cannot be empty.")
         if not file_path.endswith(('.pdf', '.txt', '.rtf')):
@@ -46,7 +49,7 @@ def extract_qa(file_path, delimiter):
                 contents += pdfReader.pages[i].extract_text()
         elif file_path.endswith(('.txt', '.rtf')):
             with open(file_path, 'r') as file:
-                contents = file.read()
+                contents += file.read()
 
     except ValueError as e:
         raise e
@@ -96,9 +99,6 @@ def create_csv(qa_list):
                 question_answer, correct_answer = qa
                 if not question_answer or not correct_answer:
                     print("Question/Answer and Correct Answer cannot be empty.")
-                    continue
-                if correct_answer[-1] == 'N':
-                    print("Invalid value for Correct Answer.")
                     continue
                 csv_writer.writerow([question_answer, correct_answer])
     except IOError:
