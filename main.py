@@ -124,9 +124,6 @@ def on_submit():
     result_label.config(text="Anki Deck and CSV file created!")
 
 
-extract_create("javed.txt", "Answer")
-exit(0)
-
 root = tk.Tk()
 root.title("Question-Answer Extractor")
 
