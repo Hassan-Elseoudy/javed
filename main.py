@@ -13,7 +13,7 @@ def extract_qa(file_path, delimiter):
             pdfFileObj = open(file_path, 'rb')
             pdfReader = PyPDF2.PdfReader(pdfFileObj)
             contents = ""
-            for i in range(0, pdfReader.numPages):
+            for i in range(len(pdfReader.pages)):
                 contents += pdfReader.getPage(i).extractText()
         elif file_path.endswith(('.txt', '.rtf')):
             with open(file_path, 'r') as file:
