@@ -14,7 +14,7 @@ def extract_qa(file_path, delimiter):
             pdfReader = PyPDF2.PdfReader(pdfFileObj)
             contents = ""
             for i in range(len(pdfReader.pages)):
-                contents += pdfReader.pages[i].extractText()
+                contents += pdfReader.pages[i].extract_text()
         elif file_path.endswith(('.txt', '.rtf')):
             with open(file_path, 'r') as file:
                 contents = file.read()
