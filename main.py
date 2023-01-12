@@ -81,8 +81,6 @@ def extract_create(file_path, delimiter):
     create_csv(qa_list)
 
 
-extract_create("javed.txt", "Answer")
-
 def on_select_file():
     filepath = filedialog.askopenfilename()
     file_path_entry.delete(0, tk.END)
