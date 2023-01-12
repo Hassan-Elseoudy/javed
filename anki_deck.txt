@@ -1,10 +1,10 @@
 1
-All of the following are basic components of a security policy EXCEPT the<br></br>A. definition of the issue and statement of relevant terms. B.<br></br>statement of roles and responsibilities<br></br>C. statement of applicability and compliance requirements.<br></br>D. statement of performance of characteristics and requirements.
+Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?<br></br>A. The likelihood and impact of a vulnerability.<br></br>B. Application interface entry and endpoints.<br></br>C. Countermeasures and mitigations for vulnerabilities.<br></br>D. A data flow diagram for the application and attack surface analysis.
 <br></br>
-Answer: D	2
-A security policy would include all of the following EXCEPT A.<br></br>Background<br></br>B. Scope statement<br></br>C. Audit requirements<br></br>D. Enforcement
+Answer: D<br></br>	2
+Continuity of operations is BEST supported by which of the following?<br></br>A. Confidentiality, availability, and reliability.<br></br>B. Connectivity, reliability, and redundancy.<br></br>C. Connectivity, reliability, and recovery.<br></br>D. Confidentiality, integrity, and availability.
 <br></br>
-Answer: B	3
-Which one of the following is an important characteristic of an information security policy?<br></br>A. Identifies major functional areas of information.<br></br>B. Quantifies the effect of the loss of the information. C.<br></br>Requires the identification of information owners.<br></br>D. Lists applications that support the business function.
+Answer: B<br></br>	3
+What determines the level of security of a combination lock?<br></br>A. Complexity of combination required to open the lock.<br></br>B. Amount of time it takes to brute force the combination.<br></br>C. The number of barrels associated with the internal mechanism.<br></br>D. The hardness score of the metal lock material.
 <br></br>
 Answer: A	

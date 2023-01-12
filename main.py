@@ -6,6 +6,21 @@ from tkinter import filedialog
 import PyPDF2
 
 
+def extract_single_qa(content, delimiter):
+    question_pattern = r"(NEW QUESTION|QUESTION)\s+(\d+):*\n((.|\n)*?)((?:\n[A-D]..+){0})\n"
+    correct_answer_pattern = fr"{delimiter}:\s\w(.|\n)*"
+    question_matches = re.finditer(question_pattern + correct_answer_pattern, content, re.DOTALL)
+    for match in question_matches:
+        question_number = match.group(2)
+        question = match.group(3)
+        answers_section = match.group(0)
+
+        correct_answer_match = re.search(correct_answer_pattern, answers_section)
+        correct_answer_symbol = correct_answer_match.group(0)
+        return ["\n".join([question_number, "<br></br>".join(question.split("\n")), "<br></br>"]),
+                "<br></br>".join(correct_answer_symbol.split("\n"))]
+
+
 # Function to extract questions and answers from the input file
 def extract_qa(file_path, delimiter):
     try:
@@ -35,20 +50,17 @@ def extract_qa(file_path, delimiter):
     elif not delimiter.strip():
         raise ValueError("Delimiter can't be blank.")
     # Use regex to find all instances of the question-answer pattern
-    question_pattern = r"(NEW QUESTION|QUESTION)\s(\d+):*\n((.|\n)*?)((?:\n[A-D]..+){0})\n"
-    correct_answer_pattern = fr"{delimiter}:\s\w"
-    question_matches = re.finditer(question_pattern + correct_answer_pattern, contents, re.DOTALL)
     qa_list = []
-    for match in question_matches:
-        question_number = match.group(2)
-        question = match.group(3)
-        answers_section = match.group(0)
 
-        correct_answer_match = re.search(correct_answer_pattern, answers_section)
-        correct_answer_symbol = correct_answer_match.group(0)
-        qa_list.append(
-            ["\n".join([question_number, "<br></br>".join(question.split("\n")), "<br></br>"]),
-             correct_answer_symbol])
+    if len(contents.split("NEW QUESTION")) > 1:
+        for content in contents.split("NEW QUESTION"):
+            if content:
+                qa_list.append(extract_single_qa("NEW QUESTION " + content, delimiter))
+
+    elif len(contents.split("QUESTION")) > 1:
+        for content in contents.split("QUESTION"):
+            if content:
+                qa_list.append(extract_single_qa("QUESTION" + content, delimiter))
 
     return qa_list
 
@@ -79,6 +91,7 @@ def extract_create(file_path, delimiter):
     qa_list = extract_qa(file_path, delimiter)
     create_anki_deck(qa_list)
     create_csv(qa_list)
+
 
 def on_select_file():
     filepath = filedialog.askopenfilename()
