@@ -11,33 +11,49 @@ def extract_single_qa(content, delimiter):
     correct_answer_pattern = fr"{delimiter}:\s\w(.|\n)*"
     question_matches = re.finditer(question_pattern + correct_answer_pattern, content, re.DOTALL)
     for match in question_matches:
-        question_number = match.group(2)
-        question = match.group(3)
-        answers_section = match.group(0)
+        if len(match.groups()) >= 3:
+            question_number = match.group(2)
+            question = match.group(3)
+            answers_section = match.group(0)
 
-        correct_answer_match = re.search(correct_answer_pattern, answers_section)
-        correct_answer_symbol = correct_answer_match.group(0)
-        return ["\n".join([question_number, "<br></br>".join(question.split("\n")), "<br></br>"]),
-                "<br></br>".join(correct_answer_symbol.split("\n"))]
+            correct_answer_match = re.search(correct_answer_pattern, answers_section)
+            correct_answer_symbol = correct_answer_match.group(0)
+            return ["\n".join([question_number, "<br></br>".join(question.split("\n")), "<br></br>"]),
+                    "<br></br>".join(correct_answer_symbol.split("\n"))]
+        else:
+            print("Not matched: Incorrect value for question")
+            continue
 
 
-# Function to extract questions and answers from the input file
 def extract_qa(file_path, delimiter):
+    # Check if the file path is valid
     try:
+        contents = ""
+        if not file_path:
+            raise ValueError("File path cannot be empty.")
+        if not file_path.endswith(('.pdf', '.txt', '.rtf')):
+            raise ValueError("Invalid file format. Please select a PDF, txt, or rtf file.")
+        if len(delimiter) > 20:
+            raise ValueError("Delimiter can't be more than 20 characters.")
+        elif not delimiter.strip():
+            raise ValueError("Delimiter can't be blank.")
+
+        # Open the file
         if file_path.endswith('.pdf'):
             pdfFileObj = open(file_path, 'rb')
             pdfReader = PyPDF2.PdfReader(pdfFileObj)
-            contents = ""
             for i in range(len(pdfReader.pages)):
                 contents += pdfReader.pages[i].extract_text()
         elif file_path.endswith(('.txt', '.rtf')):
             with open(file_path, 'r') as file:
                 contents = file.read()
-        else:
-            raise ValueError("Invalid file format. Please select a PDF, txt, or rtf file.")
+
+    except ValueError as e:
+        raise e
     except IOError:
         raise ValueError("Error opening the file. Please check the file path and try again.")
 
+    # Clean the contents
     contents = contents.replace("Visit and Download Full Version Exam Dumps", "")
     contents = contents.replace("http://www.certleader.com/CISSP-dumps.html", "")
     contents = contents.replace("CISSP - Certified Information Systems Security Professional (CISSP)", "")
@@ -45,10 +61,6 @@ def extract_qa(file_path, delimiter):
     contents = contents.replace("visit - http://www.certleader.com", "")
     contents = contents.replace("Visit and Download Full Version CISSP Exam Dumps", "")
 
-    if len(delimiter) > 20:
-        raise ValueError("Delimiter can't be more than 20 characters")
-    elif not delimiter.strip():
-        raise ValueError("Delimiter can't be blank.")
     # Use regex to find all instances of the question-answer pattern
     qa_list = []
 
@@ -65,31 +77,37 @@ def extract_qa(file_path, delimiter):
     return qa_list
 
 
-# Function to create the Anki deck
-def create_anki_deck(qa_list):
-    # Create a new Anki deck using the 'anki_deck_template.txt' file
-    with open('anki_deck.txt', 'w') as anki_deck:
-        for qa in filter(lambda q: q[1][-1] != 'N', list(filter(None, qa_list))):
-            question = qa[0]
-            answer = qa[1]
-            anki_deck.write(question + '\n' + answer + '\t')
-
-
 def create_csv(qa_list):
-    with open('qa.csv', 'w', newline='') as qa_csv:
-        csv_writer = csv.writer(qa_csv, delimiter=',',
-                                quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        csv_writer.writerow(['Question/Answer', 'Correct Answer'])
-        for qa in filter(lambda q: q[1][-1] != 'N', list(filter(None, qa_list))):
-            question_answer = qa[0]
-            correct_answer = qa[1]
-            csv_writer.writerow([question_answer, correct_answer])
+    # Check if the qa_list is valid
+    if not qa_list:
+        raise ValueError("qa_list cannot be empty.")
+
+    try:
+        # Open the CSV file
+        with open('qa.csv', 'w', newline='') as qa_csv:
+            csv_writer = csv.writer(qa_csv, delimiter=',',
+                                    quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            csv_writer.writerow(['Question/Answer', 'Correct Answer'])
+            # Iterate through the qa_list and add validation for each item
+            for qa in qa_list:
+                if len(qa) != 2:
+                    print("Each item in the qa_list must be a tuple of length 2.")
+                    continue
+                question_answer, correct_answer = qa
+                if not question_answer or not correct_answer:
+                    print("Question/Answer and Correct Answer cannot be empty.")
+                    continue
+                if correct_answer[-1] == 'N':
+                    print("Invalid value for Correct Answer.")
+                    continue
+                csv_writer.writerow([question_answer, correct_answer])
+    except IOError:
+        raise ValueError("Error opening the file. Please check the file path and try again.")
 
 
 # Function to extract and create file
 def extract_create(file_path, delimiter):
     qa_list = extract_qa(file_path, delimiter)
-    create_anki_deck(qa_list)
     create_csv(qa_list)
 
 extract_create("javed.txt", "Answer")
