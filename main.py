@@ -65,12 +65,12 @@ def extract_qa(file_path, delimiter):
     qa_list = []
 
     if len(contents.split("NEW QUESTION")) > 1:
-        for content in contents.split("NEW QUESTION"):
+        for content in contents.split("\nNEW QUESTION"):
             if content:
                 qa_list.append(extract_single_qa("NEW QUESTION " + content, delimiter))
 
     elif len(contents.split("QUESTION")) > 1:
-        for content in contents.split("QUESTION"):
+        for content in contents.split("\nQUESTION"):
             if content:
                 qa_list.append(extract_single_qa("QUESTION" + content, delimiter))
 
