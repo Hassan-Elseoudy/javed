@@ -69,7 +69,7 @@ def extract_qa(file_path, delimiter):
 def create_anki_deck(qa_list):
     # Create a new Anki deck using the 'anki_deck_template.txt' file
     with open('anki_deck.txt', 'w') as anki_deck:
-        for qa in filter(lambda q: q[1][-1] != 'N', qa_list):
+        for qa in filter(lambda q: q[1][-1] != 'N', list(filter(None, qa_list))):
             question = qa[0]
             answer = qa[1]
             anki_deck.write(question + '\n' + answer + '\t')
@@ -80,7 +80,7 @@ def create_csv(qa_list):
         csv_writer = csv.writer(qa_csv, delimiter=',',
                                 quotechar='"', quoting=csv.QUOTE_MINIMAL)
         csv_writer.writerow(['Question/Answer', 'Correct Answer'])
-        for qa in filter(lambda q: q[1][-1] != 'N', qa_list):
+        for qa in filter(lambda q: q[1][-1] != 'N', list(filter(None, qa_list))):
             question_answer = qa[0]
             correct_answer = qa[1]
             csv_writer.writerow([question_answer, correct_answer])
@@ -92,42 +92,43 @@ def extract_create(file_path, delimiter):
     create_anki_deck(qa_list)
     create_csv(qa_list)
 
+extract_create("javed.txt", "Answer")
 
-def on_select_file():
-    filepath = filedialog.askopenfilename()
-    file_path_entry.delete(0, tk.END)
-    file_path_entry.insert(0, filepath)
-
-
-def on_submit():
-    file_path = file_path_entry.get()
-    delimiter = delimiter_entry.get()
-    extract_create(file_path, delimiter)
-    result_label.config(text="Anki Deck and CSV file created!")
-
-
-root = tk.Tk()
-root.title("Question-Answer Extractor")
-
-# file_path_
+# def on_select_file():
+#     filepath = filedialog.askopenfilename()
+#     file_path_entry.delete(0, tk.END)
+#     file_path_entry.insert(0, filepath)
+#
+#
+# def on_submit():
+#     file_path = file_path_entry.get()
+#     delimiter = delimiter_entry.get()
+#     extract_create(file_path, delimiter)
+#     result_label.config(text="Anki Deck and CSV file created!")
+#
+#
 # root = tk.Tk()
-
-# create the widgets
-file_path_label = tk.Label(root, text="File path:")
-file_path_entry = tk.Entry(root)
-select_file_button = tk.Button(root, text="Select file", command=on_select_file)
-delimiter_label = tk.Label(root, text="Delimiter:")
-delimiter_entry = tk.Entry(root)
-submit_button = tk.Button(root, text="Submit", command=on_submit)
-result_label = tk.Label(root)
-
-# arrange the widgets
-file_path_label.grid(row=0, column=0, padx=5, pady=5)
-file_path_entry.grid(row=0, column=1, padx=5, pady=5)
-select_file_button.grid(row=0, column=2, padx=5, pady=5)
-delimiter_label.grid(row=1, column=0, padx=5, pady=5)
-delimiter_entry.grid(row=1, column=1, padx=5, pady=5)
-submit_button.grid(row=1, column=2, padx=5, pady=5)
-result_label.grid(row=2, column=0, columnspan=3, padx=5, pady=5)
-
-root.mainloop()
+# root.title("Question-Answer Extractor")
+#
+# # file_path_
+# # root = tk.Tk()
+#
+# # create the widgets
+# file_path_label = tk.Label(root, text="File path:")
+# file_path_entry = tk.Entry(root)
+# select_file_button = tk.Button(root, text="Select file", command=on_select_file)
+# delimiter_label = tk.Label(root, text="Delimiter:")
+# delimiter_entry = tk.Entry(root)
+# submit_button = tk.Button(root, text="Submit", command=on_submit)
+# result_label = tk.Label(root)
+#
+# # arrange the widgets
+# file_path_label.grid(row=0, column=0, padx=5, pady=5)
+# file_path_entry.grid(row=0, column=1, padx=5, pady=5)
+# select_file_button.grid(row=0, column=2, padx=5, pady=5)
+# delimiter_label.grid(row=1, column=0, padx=5, pady=5)
+# delimiter_entry.grid(row=1, column=1, padx=5, pady=5)
+# submit_button.grid(row=1, column=2, padx=5, pady=5)
+# result_label.grid(row=2, column=0, columnspan=3, padx=5, pady=5)
+#
+# root.mainloop()

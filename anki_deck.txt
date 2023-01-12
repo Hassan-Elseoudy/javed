@@ -1,10 +1,313 @@
-1
-Which of the following is the MOST important output from a mobile application threat modeling exercise according to Open Web Application Security Project (OWASP)?<br></br>A. The likelihood and impact of a vulnerability.<br></br>B. Application interface entry and endpoints.<br></br>C. Countermeasures and mitigations for vulnerabilities.<br></br>D. A data flow diagram for the application and attack surface analysis.
+2
+What is the FIRST step in developing a security test and its evaluation? A. Determine testing methods<br></br>B. Develop testing procedures<br></br>C. Identify all applicable security requirements<br></br>D. Identify people, processes, and products not in compliance
 <br></br>
-Answer: D<br></br>	2
-Continuity of operations is BEST supported by which of the following?<br></br>A. Confidentiality, availability, and reliability.<br></br>B. Connectivity, reliability, and redundancy.<br></br>C. Connectivity, reliability, and recovery.<br></br>D. Confidentiality, integrity, and availability.
+Answer: C<br></br>	3
+Which of the following assessment metrics is BEST used to understand a system's vulnerability to potential exploits?<br></br>A. Determining the probability that the system functions safely during any time period B. Quantifying the system's available services<br></br>C. Identifying the number of security flaws within the system<br></br>D. Measuring the system's integrity in the presence of failure
 <br></br>
-Answer: B<br></br>	3
-What determines the level of security of a combination lock?<br></br>A. Complexity of combination required to open the lock.<br></br>B. Amount of time it takes to brute force the combination.<br></br>C. The number of barrels associated with the internal mechanism.<br></br>D. The hardness score of the metal lock material.
+Answer: C<br></br>	6
+What is the PRIMARY goal for using Domain Name System.Security Extensions (DNSSEC) to sign records? A. Integrity<br></br>B. Confidentiality<br></br>C. Accountability<br></br>D. Availability
 <br></br>
-Answer: A	
+Answer: A<br></br>	10
+Which of the following is an attacker MOST likely to target to gain privileged access to a system? A. Programs that write to system resources<br></br>B. Programs that write to user directories<br></br>C. Log files containing sensitive information<br></br>D. Log files containing system calls
+<br></br>
+Answer: A<br></br><br></br><br></br><br></br> <br></br><br></br><br></br>	11
+In Disaster Recovery (DR) and business continuity training, which BEST describes a functional drill? A. A full-scale simulation of an emergency and the subsequent response functions<br></br>B. A specific test by response teams of individual emergency response functions<br></br>C. A functional evacuation of personnel<br></br>D. An activation of the backup site
+<br></br>
+Answer: B<br></br>	12
+A large bank deploys hardware tokens to all customers that use their online banking system. The token generates and displays a six digit numeric password every 60 seconds. The customers must log into their bank accounts using this numeric password. This is an example of<br></br>A. asynchronous token.<br></br>B. Single Sign-On (SSO) token.<br></br>C. single factor authentication token. D. synchronous token.
+<br></br>
+Answer: D<br></br>	13
+Which one of the following is a common risk with network configuration management? A. Patches on the network are difficult to keep current.<br></br>B. It is the responsibility of the systems administrator.<br></br>C. User ID and passwords are never set to expire.<br></br>D. Network diagrams are not up to date.
+<br></br>
+Answer: D<br></br>	14
+  <br></br><br></br><br></br> <br></br><br></br>The goal of a Business Continuity Plan (BCP) training and awareness program is to A. enhance the skills required to create, maintain, and execute the plan.<br></br>B. provide for a high level of recovery in case of disaster.<br></br>C. describe the recovery organization to new employees.<br></br>D. provide each recovery team with checklists and procedures.
+<br></br>
+Answer: A<br></br>	15
+Refer.to the information below to answer the question.<br></br>A large organization uses unique identifiers and requires them at the start of every system session. Application access is based on job classification. The organization is subject to periodic independent reviews of access controls and violations. The organization uses wired and wireless networks and remote access. The organization also uses secure connections to branch offices and secure backup and recovery strategies for selected information and processes.<br></br>In addition to authentication at the start of the user session, best practice would require re-authentication A. periodically during a session.<br></br>B. for each business process.<br></br>C. at system sign-off.<br></br>D. after a period of inactivity.
+<br></br>
+Answer: D<br></br>	16
+Which of the following provides effective management assurance for a Wireless Local Area Network (WLAN)?<br></br>A. Maintaining an inventory of authorized Access Points (AP) and connecting devices B. Setting the radio frequency to the minimum range required<br></br>C. Establishing a Virtual Private Network (VPN) tunnel between the WLAN client device and a VPN concentrator<br></br>D. Verifying that all default passwords have been changed
+<br></br>
+Answer: A<br></br>  <br></br><br></br> 	18
+In a data classification scheme, the data is owned by the A. Information Technology (IT) managers.<br></br>B. business managers.<br></br>C. end users.<br></br>D. system security managers.
+<br></br>
+Answer: B<br></br>	19
+Which of the following is an example of two-factor authentication? A. Retina scan.and a palm print<br></br>B. Fingerprint and a smart card<br></br>C. Magnetic stripe card and an ID badge<br></br>D. Password and Completely Automated Public Turing test to tell Computers and Humans Apart (CAPTCHA)
+<br></br>
+Answer: B<br></br>	20
+Host-Based Intrusion Protection (HIPS) systems are often deployed in monitoring or learning mode during<br></br> <br></br><br></br> <br></br><br></br>their initial implementation. What is the objective of starting in this mode? A. Automatically create exceptions for specific actions or files<br></br>B. Determine which files are unsafe to access and blacklist them<br></br>C. Automatically whitelist actions or files known to the system<br></br>D. Build a baseline of normal or safe system events for review
+<br></br>
+Answer: D<br></br><br></br>	22
+Refer.to the information below to answer the question.<br></br>A security practitioner detects client-based attacks on the organization’s network. A plan will be necessary to address these concerns.<br></br>What is the BEST reason for the organization to pursue a plan to mitigate client-based attacks?<br></br>A. Client privilege administration is inherently weaker than server privilege administration.<br></br>B. Client hardening and management is easier on clients than on servers.<br></br>C. Client-based attacks are more common and easier to exploit than server and network based attacks. D. Client-based attacks have higher financial impact.
+<br></br>
+Answer: C<br></br>   <br></br><br></br> 	23
+<br></br><br></br> Which of the following is the PRIMARY.security.concern associated with the implementation of smart cards? A. The cards have limited memory<br></br>B. Vendor application compatibility<br></br>C. The cards can be misplaced<br></br>D. Mobile code can be embedded in the card
+<br></br>
+Answer: C<br></br>	25
+Sensitive customer data is going to be added to a database. What is the MOST effective implementation for ensuring data privacy?<br></br>A. Discretionary Access Control (DAC) procedures B. Mandatory Access Control (MAC) procedures C. Data link encryption<br></br>D. Segregation of duties
+<br></br>
+Answer: B<br></br>	26
+Which of the following problems is not addressed by using OAuth (Open Standard to Authorization) 2.0.to integrate a third-party identity provider for a service?<br></br>A. Resource Servers are required to use passwords to authenticate end users.<br></br> <br></br><br></br> <br></br><br></br>B. Revocation of access of some users of the third party instead of all the users from the third party. C. Compromise of the third party means compromise of all the users in the service.<br></br>D. Guest users need to authenticate with the third party identity provider.
+<br></br>
+Answer: C<br></br>	27
+Which one of the following affects the classification of data? A. Passage of time<br></br>B. Assigned security label<br></br>C. Multilevel Security (MLS) architecture<br></br>D. Minimum query size
+<br></br>
+Answer: A<br></br>	31
+What is the MAIN feature that onion routing networks offer? A. Non-repudiation<br></br>B. Traceability<br></br>C. Anonymity<br></br>D. Resilience
+<br></br>
+Answer: C<br></br>	32
+The MAIN reason an organization conducts a security authorization process is to A. force the organization to make conscious risk decisions.<br></br>B. assure the effectiveness of security controls.<br></br>C. assure the correct security organization exists.<br></br>D. force the organization to enlist management support.
+<br></br>
+Answer: A<br></br> <br></br><br></br><br></br> 	38
+Which of the following methods provides the MOST protection for user credentials? A. Forms-based authentication<br></br>B. Digest authentication<br></br>C. Basic authentication<br></br>D. Self-registration
+<br></br>
+Answer: B<br></br>	40
+<br></br><br></br> Multi-Factor Authentication (MFA) is necessary in many systems given common types of password attacks. Which of the following is a correct list of password attacks?<br></br>A. Masquerading, salami, malware, polymorphism B. Brute force, dictionary, phishing, keylogger<br></br>C. Zeus, netbus, rabbit, turtle<br></br>D. Token, biometrics, IDS, DLP
+<br></br>
+Answer: B<br></br><br></br>	43
+How can lessons learned from business continuity training and actual recovery incidents BEST be used?<br></br>  <br></br><br></br> <br></br><br></br>A. As a means for improvement<br></br>B. As alternative options for awareness and training C. As indicators of a need for policy<br></br>D. As business function gap indicators
+<br></br>
+Answer: A<br></br>	45
+What type of encryption is used to protect sensitive data in transit over a network? A. Payload encryption and transport encryption<br></br>B. Authentication Headers (AH)<br></br>C. Keyed-Hashing for Message Authentication<br></br>D. Point-to-Point Encryption (P2PE)
+<br></br>
+Answer: A<br></br>	48
+Which of the following is the BEST way to verify the integrity of a software patch? A. Cryptographic checksums<br></br>B. Version numbering<br></br>C. Automatic updates<br></br>D. Vendor assurance
+<br></br>
+Answer: A<br></br>	49
+How can a forensic specialist exclude from examination a large percentage of operating system files residing on a copy of the target system?<br></br>A. Take another backup of the media in question then delete all irrelevant operating system files.<br></br>B. Create a comparison database of cryptographic hashes of the files from a system with the same operating<br></br>  <br></br><br></br> system and patch level.<br></br><br></br><br></br> C. Generate a message digest (MD) or secure hash on the drive image to detect tampering of the media being examined.<br></br>D. Discard harmless files for the operating system, and known installed programs.
+<br></br>
+Answer: B<br></br>	53
+<br></br><br></br> Which of the following is the MOST difficult to enforce when using cloud computing? A. Data access<br></br>B. Data backup<br></br>C. Data recovery<br></br>D. Data disposal
+<br></br>
+Answer: D<br></br>	55
+Which of the following is an essential element of a privileged identity lifecycle management? A. Regularly perform account re-validation and approval<br></br>B. Account provisioning based on multi-factor authentication<br></br>C. Frequently review performed activities and request justification<br></br>D. Account information to be provided by supervisor or line manager
+<br></br>
+Answer: A<br></br>	57
+Which one of the following effectively obscures network addresses from external exposure when implemented on a firewall or router?<br></br>A. Network Address Translation (NAT)<br></br>B. Application Proxy<br></br>C. Routing Information Protocol (RIP) Version 2 D. Address Masking
+<br></br>
+Answer: A<br></br>	58
+The PRIMARY security concern for handheld devices is the A. strength of the encryption algorithm.<br></br>B. spread of malware during synchronization.<br></br>C. ability to bypass the authentication mechanism.<br></br>D. strength of the Personal Identification Number (PIN).
+<br></br>
+Answer: C<br></br>	60
+What is the MOST effective method of testing custom application code? A. Negative testing<br></br>B. White box testing<br></br>C. Penetration testing<br></br>D. Black box testing
+<br></br>
+Answer: B<br></br><br></br>	61
+Which of the following violates identity and access management best practices? A. User accounts<br></br>B. System accounts<br></br>C. Generic accounts<br></br>D. Privileged accounts
+<br></br>
+Answer: C<br></br>	62
+Retaining system logs for six months or longer can be valuable for what activities?. A. Disaster recovery and business continuity<br></br>B. Forensics and incident response<br></br>C. Identity and authorization management<br></br>   <br></br><br></br> <br></br><br></br>D. Physical and logical access control
+<br></br>
+Answer: B<br></br>	64
+What is the GREATEST.challenge of.an agent-based patch management solution?<br></br>A. Time to gather vulnerability information about the computers in the program<br></br>B. Requires that software be installed, running, and managed on all participating computers C. The significant amount of network bandwidth while scanning computers<br></br>D. The consistency of distributing patches to each participating computer
+<br></br>
+Answer: B<br></br>	65
+If compromised, which of the following would lead to the exploitation of multiple virtual machines? A. Virtual device drivers<br></br>B. Virtual machine monitor<br></br>C. Virtual machine instance<br></br>D. Virtual machine file system
+<br></br>
+Answer: B<br></br>	66
+What is a common challenge when implementing Security Assertion Markup Language<br></br>  <br></br><br></br> <br></br><br></br>(SAML) for identity integration between on-premise environment and an external identity provider service? A. Some users are not provisioned into the service.<br></br>B. SAML tokens are provided by the on-premise identity provider.<br></br>C. Single users cannot be revoked from the service.<br></br>D. SAML tokens contain user information.
+<br></br>
+Answer: A<br></br>	67
+Refer.to the information below to answer the question.<br></br>.A large, multinational organization has decided to outsource a portion of their Information Technology (IT) organization to a third-party provider’s facility. This provider will be responsible for the design, development, testing, and support of several critical, customer-based applications used by the organization.<br></br>What additional considerations are there if the third party is located in a different country?<br></br>A. The organizational structure of the third party and how it may impact timelines within the organization<br></br>B. The ability of the third party to respond to the organization in a timely manner and with accurate information<br></br>C. The effects of transborder data flows and customer expectations regarding the storage or processing of their data<br></br>D. The quantity of data that must be provided to the third party and how it is to be used
+<br></br>
+Answer: C<br></br>	70
+At a MINIMUM, a formal review of any Disaster Recovery Plan (DRP) should be conducted A. monthly.<br></br>B. quarterly.<br></br>C. annually.<br></br>D. bi-annually.
+<br></br>
+Answer: C<br></br><br></br>	74
+What is an important characteristic of Role Based Access Control (RBAC)? A. Supports Mandatory Access Control (MAC)<br></br>B. Simplifies the management of access rights<br></br>C. Relies on rotation of duties<br></br>D. Requires.two factor authentication
+<br></br>
+Answer: B<br></br>	77
+In a financial institution, who has the responsibility for assigning the classification to a piece of information? A. Chief Financial Officer (CFO)<br></br>B. Chief Information Security Officer (CISO)<br></br>C. Originator or nominated owner of the information<br></br>D. Department head responsible for ensuring the protection of the information
+<br></br>
+Answer: C<br></br>	78
+Internet Protocol (IP) source address spoofing is used to defeat A. address-based authentication.<br></br>B. Address Resolution Protocol (ARP).<br></br>C. Reverse Address Resolution Protocol (RARP).<br></br>D. Transmission Control Protocol (TCP) hijacking.
+<br></br>
+Answer: A<br></br>	79
+The three PRIMARY requirements for a penetration test are<br></br><br></br><br></br><br></br> <br></br><br></br>A. A defined goal, limited time period, and approval of management<br></br>B. A general objective, unlimited time, and approval of the network administrator C. An objective statement, disclosed methodology, and fixed cost<br></br>D. A stated objective, liability waiver, and disclosed methodology
+<br></br>
+Answer: A<br></br>	80
+During the procurement of a new information system, it was determined that some of the security requirements were not addressed in the system specification. Which of the following is the MOST likely reason for this?<br></br>A. The procurement officer lacks technical knowledge.<br></br>B. The security requirements have changed during the procurement process. C. There were no security professionals in the vendor's bidding team.<br></br>D. The description of the security requirements was insufficient.
+<br></br>
+Answer: D<br></br><br></br>	84
+Discretionary Access Control (DAC) restricts access according to A. data classification labeling.<br></br>B. page views within an application.<br></br>C. authorizations granted to the user.<br></br>D. management accreditation.
+<br></br>
+Answer: C<br></br>	85
+ <br></br><br></br><br></br> <br></br><br></br>Which of the following elements.MUST a compliant EU-US Safe Harbor Privacy Policy contain?<br></br>A. An explanation of how long the data subject's collected information will be retained for and how it will be eventually disposed.<br></br>B. An explanation of who can be contacted at the organization collecting the information if corrections are required by the data subject.<br></br>C. An explanation of the regulatory frameworks and compliance standards the information collecting organization adheres to.<br></br>D. An explanation of all the technologies employed by the collecting organization in gathering information on the data subject.
+<br></br>
+Answer: B<br></br>	89
+Refer.to the information below to answer the question.<br></br>An organization experiencing a negative financial impact is forced to reduce budgets and the number of Information Technology (IT) operations staff performing basic logical access security administration functions. Security processes have been tightly integrated into normal IT operations and are not separate and distinct roles.<br></br>Which of the following will indicate where the IT budget is BEST allocated during this time? A. Policies<br></br>B. Frameworks<br></br>C. Metrics<br></br>D. Guidelines
+<br></br>
+Answer: C<br></br>	91
+<br></br><br></br> Refer.to the information below to answer the question.<br></br>An organization has hired an information security officer to lead their security department. The officer has adequate people resources but is lacking the other necessary components to have an effective security program. There are numerous initiatives requiring security involvement.<br></br>The security program can be considered effective when A. vulnerabilities are proactively identified.<br></br>B. audits are regularly performed and reviewed.<br></br>C. backups are regularly performed and validated.<br></br>D. risk is lowered to an acceptable level.
+<br></br>
+Answer: D<br></br>	92
+An organization is designing a large enterprise-wide document repository system. They plan to have several different classification level areas with increasing levels of controls. The BEST way to ensure document confidentiality in the repository is to<br></br>A. encrypt the contents of the repository and document any exceptions to that requirement.<br></br>B. utilize Intrusion Detection System (IDS) set drop connections if too many requests for documents are detected.<br></br>C. keep individuals with access to high security areas from saving those documents into lower security areas. D. require individuals with access to the system to sign Non-Disclosure Agreements (NDA).
+<br></br>
+Answer: C<br></br>	94
+<br></br><br></br> The type of authorized interactions a subject can have with an object is A. control.<br></br>B. permission.<br></br>C. procedure.<br></br>D. protocol.
+<br></br>
+Answer: B<br></br>	96
+Which of the following is a MAJOR consideration in implementing a Voice over IP (VoIP) network? A. Use of a unified messaging.<br></br>B. Use of separation for the voice network.<br></br>C. Use of Network Access Control (NAC) on switches.<br></br>D. Use of Request for Comments (RFC) 1918 addressing.
+<br></br>
+Answer: B<br></br>	98
+<br></br><br></br> A health care provider is considering Internet access for their employees and patients. Which of the following is the organization's MOST secure solution for protection of data?<br></br>A. Public Key Infrastructure (PKI) and digital signatures B. Trusted server certificates and passphrases<br></br>C. User ID and password<br></br>D. Asymmetric encryption and User ID
+<br></br>
+Answer: A<br></br>	99
+Which of the following BEST describes the purpose of performing security certification? A. To identify system threats, vulnerabilities, and acceptable level of risk<br></br>B. To formalize the confirmation of compliance to security policies and standards<br></br>C. To formalize the confirmation of completed risk mitigation and risk analysis<br></br>D. To verify that system architecture and interconnections with other systems are effectively implemented
+<br></br>
+Answer: B<br></br>	102
+What is the MOST important reason to configure unique user IDs? A. Supporting accountability<br></br>B. Reducing authentication errors<br></br>C. Preventing password compromise<br></br>D. Supporting Single Sign On (SSO)
+<br></br>
+Answer: A<br></br>	103
+Which of the following is a detective access control mechanism? A. Log review<br></br>B. Least privilege C. Password complexity<br></br>D. Non-disclosure agreement
+<br></br>
+Answer: A<br></br>	105
+Which of the following controls is the FIRST step in protecting privacy in an information system? A. Data Redaction<br></br>B. Data Minimization<br></br>C. Data Encryption<br></br>D. Data Storage
+<br></br>
+Answer: B<br></br>	109
+What does an organization FIRST review to assure compliance with privacy requirements? A. Best practices<br></br>B. Business objectives<br></br>C. Legal and regulatory mandates<br></br>D. Employee's compliance to policies and standards
+<br></br>
+Answer: C<br></br>	111
+Why MUST a Kerberos server be well protected from unauthorized access? A. It contains the keys of all clients.<br></br>B. It always operates at root privilege.<br></br>C. It contains all the tickets for services.<br></br>D. It contains the Internet Protocol (IP) address of all network entities.
+<br></br>
+Answer: A<br></br>	112
+Which one of the following security mechanisms provides the BEST way to restrict the execution of privileged procedures?<br></br>A. Role Based Access Control (RBAC) B. Biometric access control<br></br>C. Federated Identity Management (IdM) D. Application hardening
+<br></br>
+Answer: A<br></br>	115
+An organization's data policy MUST include a data retention period which is based on A. application dismissal.<br></br>B. business procedures.<br></br>C. digital certificates expiration.<br></br>D. regulatory compliance.
+<br></br>
+Answer: D<br></br>	116
+What is the MOST important purpose of testing the Disaster Recovery Plan (DRP)? A. Evaluating the efficiency of the plan<br></br>B. Identifying the benchmark required for restoration<br></br>C. Validating the effectiveness of the plan<br></br>D. Determining the Recovery Time Objective (RTO)
+<br></br>
+Answer: C<br></br>	117
+A security consultant has been asked to research an organization's legal obligations to protect privacy-<br></br> <br></br><br></br> <br></br><br></br>related information. What kind of reading material is MOST relevant to this project?<br></br>A. The organization's current security policies concerning privacy issues<br></br>B. Privacy-related regulations enforced by governing bodies applicable to the organization C. Privacy best practices published by recognized security standards organizations<br></br>D. Organizational procedures designed to protect privacy information
+<br></br>
+Answer: B<br></br>	122
+After a thorough analysis, it was discovered that a perpetrator compromised a network by gaining access to the network through a Secure Socket Layer (SSL) Virtual Private Network (VPN) gateway. The perpetrator guessed a username and brute forced the password to gain access. Which of the following BEST mitigates this issue?<br></br>A. Implement strong passwords authentication for VPN B. Integrate the VPN with centralized credential stores C. Implement an Internet Protocol Security (IPSec) client D. Use two-factor authentication mechanisms
+<br></br>
+Answer: D<br></br>	124
+What does secure authentication with logging provide? A. Data integrity<br></br>B. Access accountability<br></br>C. Encryption logging format<br></br>D. Segregation of duties
+<br></br>
+Answer: B<br></br>	126
+How does an organization verify that.an.information system's.current hardware and software match the standard system configuration?<br></br>A. By reviewing the configuration after the system goes into production<br></br>  <br></br><br></br> <br></br><br></br>B. By running vulnerability scanning tools on all devices in the environment C. By comparing the actual configuration of the system against the baseline D. By verifying all the approved security patches are implemented
+<br></br>
+Answer: C<br></br>	127
+Refer.to the information below to answer the question.<br></br>Desktop computers in an organization were sanitized.for re-use.in an equivalent security environment. The data was destroyed in accordance with organizational policy and all marking and other external indications of the sensitivity of the data that was formerly stored on the magnetic drives were removed.<br></br>After magnetic drives were degaussed twice according to the product manufacturer's directions, what is the MOST LIKELY security issue with degaussing?<br></br>A. Commercial products often have serious weaknesses of the magnetic force available in the degausser product.<br></br>B. Degausser products may not be properly maintained and operated.<br></br>C. The inability to turn the drive around in the chamber for the second pass due to human error. D. Inadequate record keeping when sanitizing media.
+<br></br>
+Answer: B<br></br>	130
+Refer.to the information below to answer the question.<br></br>An organization experiencing a negative financial impact is forced to reduce budgets and the number of Information Technology (IT) operations staff performing basic logical access security administration functions. Security processes have been tightly integrated into normal IT operations and are not separate and distinct roles.<br></br>When determining appropriate resource allocation, which of the following is MOST important to monitor? A. Number of system compromises<br></br>B. Number of audit findings<br></br>C. Number of staff reductions<br></br>D. Number of additional assets
+<br></br>
+Answer: B<br></br><br></br>	133
+The PRIMARY outcome of a certification process is that it provides documented A. system weaknesses for remediation.<br></br>B. standards for security assessment, testing, and process evaluation.<br></br>C. interconnected systems and their implemented security controls.<br></br>D. security analyses needed to make a risk-based decision.
+<br></br>
+Answer: D<br></br>	134
+The birthday attack is MOST effective against which one of the following cipher technologies? A. Chaining block encryption<br></br>B. Asymmetric cryptography<br></br>C. Cryptographic hash<br></br>D. Streaming cryptography
+<br></br>
+Answer: C<br></br>	136
+Which of the following is a function of Security Assertion Markup Language (SAML)? A. File allocation<br></br>B. Redundancy check<br></br>C. Extended validation<br></br>D. Policy enforcement
+<br></br>
+Answer: D<br></br>	137
+When implementing controls in a heterogeneous end-point network for an organization, it is critical that A. hosts are able to establish network communications.<br></br>B. users can make modifications to their security software configurations.<br></br>C. common software security components be implemented across all hosts.<br></br>D. firewalls running on each host are fully customizable by the user.
+<br></br>
+Answer: C<br></br>	138
+As one component of a physical security system, an Electronic Access Control (EAC) token is BEST known for its ability to<br></br>A. overcome the problems of key assignments. B. monitor the opening of windows and doors. C. trigger alarms when intruders are detected.<br></br>  <br></br><br></br> <br></br><br></br>D. lock down a facility during an emergency.
+<br></br>
+Answer: A<br></br>	139
+Which of the following protocols would allow an organization to maintain a centralized list of users that can read a protected webpage?<br></br>A. Lightweight Directory Access Control (LDAP) B. Security Assertion Markup Language (SAML) C. Hypertext Transfer Protocol (HTTP)<br></br>D. Kerberos
+<br></br>
+Answer: A<br></br>	140
+Which of the following standards/guidelines requires an Information Security Management System (ISMS) to be defined?<br></br>A. International Organization for Standardization (ISO) 27000 family B. Information Technology Infrastructure Library (ITIL)<br></br>C. Payment Card Industry Data Security Standard (PCIDSS)<br></br>D. ISO/IEC 20000
+<br></br>
+Answer: A<br></br><br></br>	143
+Which of the following is a security limitation of File Transfer Protocol (FTP)? A. Passive FTP is not compatible with web browsers.<br></br>B. Anonymous access is allowed.<br></br>C. FTP uses Transmission Control Protocol (TCP) ports 20 and 21.<br></br>D. Authentication is not encrypted.
+<br></br>
+Answer: D<br></br>	146
+Which one of the following considerations has the LEAST impact when considering transmission security? A. Network availability<br></br>B. Data integrity<br></br>C. Network bandwidth<br></br>D. Node locations
+<br></br>
+Answer: C<br></br>	147
+Which of the following is the PRIMARY benefit of a formalized information classification program? A. It drives audit processes.<br></br>B. It supports risk assessment.<br></br>C. It reduces asset vulnerabilities.<br></br>D. It minimizes system logging requirements.
+<br></br>
+Answer: B<br></br>	150
+During an audit of system management, auditors find that the system administrator has not been trained. What actions need to be taken at once to ensure the integrity of systems?<br></br>A. A review of hiring policies and methods of verification of new employees B. A review of all departmental procedures<br></br>C. A review of all training procedures to be undertaken<br></br>D. A review of all systems by an experienced administrator
+<br></br>
+Answer: D<br></br><br></br>	152
+<br></br><br></br> What is the PRIMARY difference between security policies and security procedures? A. Policies are used to enforce violations, and procedures create penalties<br></br>B. Policies point to guidelines, and procedures are more contractual in nature<br></br>C. Policies are included in awareness training, and procedures give guidance<br></br>D. Policies are generic in nature, and procedures contain operational details
+<br></br>
+Answer: D<br></br>	153
+The amount of data that will be collected during an audit is PRIMARILY determined by the A. audit scope.<br></br>B. auditor's experience level.<br></br>C. availability of the data.<br></br>D. integrity of the data.
+<br></br>
+Answer: A<br></br>	154
+The PRIMARY characteristic of a Distributed Denial of Service (DDoS) attack is that it A. exploits weak authentication to penetrate networks.<br></br>B. can be detected with signature analysis.<br></br>C. looks like normal network activity.<br></br>D. is commonly confused with viruses or worms.
+<br></br>
+Answer: C<br></br>	155
+For an organization considering two-factor authentication for secure network access, which of the following is MOST secure?<br></br>A. Challenge response and private key<br></br> <br></br><br></br> <br></br><br></br>B. Digital certificates and Single Sign-On (SSO) C. Tokens and passphrase<br></br>D. Smart card and biometrics
+<br></br>
+Answer: D<br></br>	157
+With data labeling, which of the following MUST be the key decision maker? A. Information security<br></br>B. Departmental management<br></br>C. Data custodian<br></br>D. Data owner
+<br></br>
+Answer: D<br></br>	162
+<br></br><br></br> Which of the following has the GREATEST impact on an organization's security posture? A. International and country-specific compliance requirements<br></br>B. Security.violations by employees and contractors<br></br>C. Resource constraints due to increasing costs of supporting security<br></br>D. Audit findings related to employee access and permissions process
+<br></br>
+Answer: A<br></br>	163
+Which of the following is the BEST way to determine if a particular system is able to identify malicious software without executing it?<br></br>A. Testing with a Botnet<br></br>B. Testing with an EICAR file<br></br>C. Executing a binary shellcode<br></br>D. Run multiple antivirus programs
+<br></br>
+Answer: B<br></br>288. Which Hyper Text Markup Language 5 (HTML5) option presents a security challenge for network data leakage prevention and/or monitoring?<br></br>A. Cross Origin Resource Sharing (CORS) B. WebSockets<br></br>C. Document Object Model (DOM) trees<br></br>D. Web Interface Definition Language (IDL)<br></br>	165
+Which of the following MUST be part of a contract to support electronic discovery of data stored in a cloud environment?<br></br>A. Integration with organizational directory services for authentication B. Tokenization of data<br></br>C. Accommodation of hybrid deployment models<br></br>D. Identification of data location
+<br></br>
+Answer: D<br></br>	167
+While investigating a malicious event, only six days of audit logs from the last month were available. What<br></br>  <br></br><br></br> <br></br><br></br>policy should be updated to address this problem? A. Retention<br></br>B. Reporting<br></br>C. Recovery<br></br>D. Remediation
+<br></br>
+Answer: A<br></br>	171
+When in the Software Development Life Cycle (SDLC) MUST software security functional requirements be defined?<br></br>A. After the system preliminary design has been developed and.the data security categorization has been performed<br></br>B. After the business functional analysis and the data security categorization have been performed C. After the vulnerability analysis has been performed and before the system detailed design begins<br></br>D. After the system preliminary design has been developed and before.the.data security categorization begins
+<br></br>
+Answer: B<br></br>	172
+Checking routing information on e-mail to determine it is in a valid format and contains valid information is an example of which of the following anti-spam approaches?<br></br>A. Simple Mail Transfer Protocol (SMTP) blacklist B. Reverse Domain Name System (DNS) lookup C. Hashing algorithm<br></br>D. Header analysis
+<br></br>
+Answer: D<br></br>	174
+Refer.to the information below to answer the question.<br></br>A large organization uses unique identifiers and requires them at the start of every system session. Application access is based on job classification. The organization is subject to periodic independent reviews of access controls and violations. The organization uses wired and wireless networks and remote access. The organization also uses secure connections to branch offices and secure backup and recovery strategies for selected information and processes.<br></br>What MUST the access control logs contain in addition to the identifier? A. Time of the access<br></br>B. Security classification<br></br>C. Denied access attempts<br></br>D. Associated clearance
+<br></br>
+Answer: A<br></br>	177
+A disadvantage of an application filtering firewall is that it can lead to A. a crash of the network as a result of user activities.<br></br>B. performance degradation due to the rules applied.<br></br>C. loss of packets on the network due to insufficient bandwidth.<br></br>D. Internet Protocol (IP) spoofing by hackers.
+<br></br>
+Answer: B<br></br>	178
+Regarding asset security and appropriate retention,.which of the following INITIAL.top three areas are.important.to focus on?<br></br>A. Security control baselines, access controls, employee awareness and training B. Human resources, asset management, production management<br></br>C. Supply chain lead time, inventory control, encryption<br></br>D. Polygraphs, crime statistics, forensics
+<br></br>
+Answer: A<br></br>	181
+Which security action should be taken FIRST when computer personnel are terminated from their jobs? A. Remove their computer access<br></br>B. Require them to turn in their badge<br></br>C. Conduct an exit interview<br></br>D. Reduce their physical access level to the facility
+<br></br>
+Answer: A<br></br>	182
+Which of the following is an effective method for avoiding magnetic media data remanence?<br></br>A. Degaussing<br></br>B. Encryption<br></br>C. Data Loss Prevention (DLP) D. Authentication
+<br></br>
+Answer: A<br></br> <br></br><br></br><br></br> 	183
+<br></br><br></br> Which of the following is the MOST important element of change management documentation? A. List of components involved<br></br>B. Number of changes being made<br></br>C. Business case justification<br></br>D. A stakeholder communication
+<br></br>
+Answer: C<br></br>	185
+Which of the following is the MOST effective method of mitigating data theft from an active user workstation? A. Implement full-disk encryption<br></br>B. Enable multifactor authentication<br></br>C. Deploy file integrity checkers<br></br>D. Disable use of portable devices
+<br></br>
+Answer: D<br></br>	186
+<br></br><br></br><br></br> <br></br><br></br>Which of the following is a security feature of Global Systems for Mobile Communications (GSM)? A. It uses a Subscriber Identity Module (SIM) for authentication.<br></br>B. It uses encrypting techniques for all communications.<br></br>C. The radio spectrum is divided with multiple frequency carriers.<br></br>D. The signal is difficult to read as it provides end-to-end encryption.
+<br></br>
+Answer: A<br></br>	189
+The stringency of an Information Technology (IT) security assessment will be determined by the A. system's past security record.<br></br>  <br></br><br></br> <br></br><br></br>B. size of the system's database. C. sensitivity of the system's data. D. age of the system.
+<br></br>
+Answer: C<br></br>	191
+What is the MOST critical factor to achieve the goals of a security program? A. Capabilities of security resources<br></br>B. Executive management support<br></br>C. Effectiveness of security management<br></br>D. Budget approved for security resources
+<br></br>
+Answer: B<br></br>	192
+  <br></br><br></br><br></br> <br></br><br></br>Which of the following methods protects.Personally Identifiable.Information (PII).by use of a full replacement of the data element?<br></br>A. Transparent Database Encryption (TDE) B. Column level database encryption<br></br>C. Volume encryption<br></br>D. Data tokenization
+<br></br>
+Answer: D<br></br>	193
+Which of the following is a critical factor for implementing a successful data classification program? A. Executive sponsorship<br></br>B. Information security sponsorship<br></br>C. End-user acceptance<br></br>D. Internal audit acceptance
+<br></br>
+Answer: A<br></br>	195
+From a security perspective, which of the following is a best practice to configure a Domain Name Service (DNS) system?<br></br>A. Configure secondary servers to use the primary server as a zone forwarder.<br></br>  <br></br><br></br> <br></br><br></br>B. Block all Transmission Control Protocol (TCP) connections. C. Disable all recursive queries on the name servers.<br></br>D. Limit zone transfers to authorized devices.
+<br></br>
+Answer: D<br></br>	196
+Which of the following secure startup mechanisms are PRIMARILY designed to thwart attacks? A. Timing<br></br>B. Cold boot<br></br>C. Side channel<br></br>D. Acoustic cryptanalysis
+<br></br>
+Answer: B<br></br>	197
+Copyright provides protection for which of the following? A. Ideas expressed in literary works<br></br>B. A particular expression of an idea<br></br>C. New and non-obvious inventions<br></br>D. Discoveries of natural phenomena
+<br></br>
+Answer: B<br></br>	199
+<br></br><br></br> Which of the following provides the MOST protection against data theft of sensitive information when a laptop is stolen?<br></br>A. Set up a BIOS and operating system password<br></br>B. Encrypt the virtual drive where confidential files can be stored<br></br>C. Implement a mandatory policy in which sensitive data cannot be stored on laptops, but only on the corporate network<br></br>D. Encrypt the entire disk and delete contents after a set number of failed access attempts
+<br></br>
+Answer: D<br></br>	
