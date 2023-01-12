@@ -11,7 +11,7 @@ def extract_qa(file_path, delimiter):
     try:
         if file_path.endswith('.pdf'):
             pdfFileObj = open(file_path, 'rb')
-            pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+            pdfReader = PyPDF2.PdfReader(pdfFileObj)
             contents = ""
             for i in range(0, pdfReader.numPages):
                 contents += pdfReader.getPage(i).extractText()
