@@ -7,8 +7,8 @@ import PyPDF2
 
 
 def extract_single_qa(content, delimiter):
-    question_pattern = r"(NEW QUESTION|QUESTION)\s+(\d+):*\n((.|\n)*?)((?:\n[A-D]..+){0})\n"
-    correct_answer_pattern = fr"{delimiter}:\s\w(.|\n)*"
+    question_pattern = r"(NEW QUESTION|QUESTION)\s+(\d+):*((.)*?)((?:[A-D]..+){0})"
+    correct_answer_pattern = fr"{delimiter}:\s\w(.)*"
     question_matches = re.finditer(question_pattern + correct_answer_pattern, content, re.DOTALL)
     for match in question_matches:
         if len(match.groups()) >= 3:
@@ -21,10 +21,12 @@ def extract_single_qa(content, delimiter):
             # Handling empty Answers.
             if not re.match(fr"{delimiter}:\s+[A-D]", correct_answer_symbol):
                 continue
+            for alpha in ['A.', 'B.', 'C.', 'D.']:
+                question = question.replace(alpha, f"\n{alpha}")
             return ["\n".join([question_number, "<br></br>".join(question.split("\n")), "<br></br>"]),
                     "<br></br>".join(correct_answer_symbol.split("\n"))]
         else:
-            print("Not matched: Incorrect value for question")
+            print("[WARNING] - Invalid Question Format: Incorrect value for question")
             continue
 
 
@@ -63,17 +65,18 @@ def extract_qa(file_path, delimiter):
     contents = contents.replace("The Leader of IT Certification", "")
     contents = contents.replace("visit - http://www.certleader.com", "")
     contents = contents.replace("Visit and Download Full Version CISSP Exam Dumps", "")
+    contents = contents.replace("\n", "")
 
     # Use regex to find all instances of the question-answer pattern
     qa_list = []
 
     if len(contents.split("NEW QUESTION")) > 1:
-        for content in contents.split("\nNEW QUESTION"):
+        for content in contents.split("NEW QUESTION"):
             if content:
                 qa_list.append(extract_single_qa("NEW QUESTION " + content, delimiter))
 
     elif len(contents.split("QUESTION")) > 1:
-        for content in contents.split("\nQUESTION"):
+        for content in contents.split("QUESTION"):
             if content:
                 qa_list.append(extract_single_qa("QUESTION" + content, delimiter))
 
@@ -94,11 +97,11 @@ def create_csv(qa_list):
             # Iterate through the qa_list and add validation for each item
             for qa in qa_list:
                 if not qa or len(qa) != 2:
-                    print("Each item in the qa_list must be a tuple of length 2.")
+                    print("[WARNING] - Invalid Question Format: Each item in the qa_list must be a tuple of length 2.")
                     continue
                 question_answer, correct_answer = qa
                 if not question_answer or not correct_answer:
-                    print("Question/Answer and Correct Answer cannot be empty.")
+                    print("[WARNING] - Invalid Question Format: Question/Answer and Correct Answer cannot be empty.")
                     continue
                 csv_writer.writerow([question_answer, correct_answer])
     except IOError:
